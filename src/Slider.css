@@ -1,0 +1,19 @@
+.slider-container {
+    position: relative;
+  }
+  
+  .slider-container .hidden {
+    display: none;
+  }
+  
+  .slider-container .scrollbar-none::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .slider-container .scrollbar-none::-moz-scrollbar {
+    width: 0;
+  }
+  
+  .slider-container .scrollbar-none::-ms-scrollbar {
+    width: 0;
+  }

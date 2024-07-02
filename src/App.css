@@ -1,0 +1,153 @@
+
+
+
+#root {
+
+  background-color: #131520;
+
+}
+.app {
+  padding-bottom: 13rem;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.l-arrow {
+display: block; /* only shows the element on hover */
+font-size: 42px; /* convert text-[30px] to font-size */
+position: absolute;
+margin-right:2rem;
+cursor: pointer;
+left: 0; /* convert left-0 to right property with value 0 */
+
+color: transparent;
+background-color: transparent;
+height: 100%;
+}
+.l-arrow:hover {
+  display: block;
+  color: #fff; /* convert text-white to hex color code */
+}
+
+.r-arrow {
+  display: block; /* only shows the element on hover */
+  font-size: 42px; /* convert text-[30px] to font-size */
+ color: transparent;
+  position: absolute;
+  margin-left: 2rem; /* convert md:mx-8 to rem units */
+  cursor: pointer;
+  right: 0; /* convert right-0 to right property with value 0 */
+  margin-right: 1rem;
+  background-color: transparent;
+  height: 100%;
+}
+
+.r-arrow:hover {
+  display: block; /* show the element on hover */
+  color: #fff;
+}
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  object-fit: cover;
+}
+.container2 {
+  height: 60vh;
+  max-height: 60vh;
+}
+.flex {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  height: 60vh;
+  max-height: 100%;
+
+}
+
+.min-w {
+  min-width: 100%;
+max-width: 100%;
+height: 100%; /* only apply this to md and up */
+object-position: left top;
+margin-right: 1.25rem; /* convert md:mr-5 to rem units */
+border-radius: 0.5rem; /* convert md:rounded-md to rem units */
+transition: all 0.1s ease-in; /* convert md:transition-all duration-100 ease-in to a standard transition property */
+}
+
+.w-full {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem; /* rounded-md is equivalent to 0.5rem */
+}
+.w-full:hover {
+  border: 5px solid #cbd5e0; 
+}
+
+.g-id {
+ height: 15rem;
+padding-left: 1rem;
+padding-right: 2rem;
+margin-left: 3rem;
+}
+.g-id:hover {
+  background-color: #1a1e30;
+}
+
+.g-name {
+  font-size: 23px;
+color:#A9A9A9;
+font-weight: 600;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #131520;
+margin-left: -1.5rem;
+margin-bottom: -2rem;
+width: 110%;
+margin-top: 2rem;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #666; /* darker color */
+}

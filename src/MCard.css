@@ -1,0 +1,93 @@
+.hr-movie-card {
+    position: relative;
+    max-width: 300px;
+  }
+  
+  .movie-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: auto;
+    width: 100%;
+    margin-right: 1.5rem;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    margin-left: -1rem;
+    margin-right: 3rem;
+    box-shadow: 0 60px 80px #131520, 0 45px 26px #131520, 0px -65px 80px -20px rgba(0, 0, 0, 0.45);
+  }
+  
+  .poster-image {
+    display: flex;
+    width: 15rem;
+    height: 25rem;
+    border-radius: .3rem;
+  }
+  .title {
+    font-size: lg;
+    font-weight: bold;
+  }
+  .genre {
+    color: #666666;
+    opacity: 0.4;
+  }
+  
+  .movie-card:hover {
+    border: 3px solid white;
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 1rem;
+    box-shadow: 0 60px 80px #131520, 0 45px 26px #131520;
+}
+.poster-image:hover {
+   transform: scale(1.1);
+}
+
+.m-title {
+    width: 110px;
+    width: 260px; /* This line is not necessary, as the media query will override it on medium screens and above */
+    max-width: 260px; /* added max-width to ensure md:w-[260px] takes precedence on medium screens and above */
+    color: #FFFFFF; /* or text-white is a valid value in TailwindCSS */
+    margin-top: 0.5rem; /* mt-2 is equivalent to margin-top: 0.5rem */
+}
+.relative {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 100vw;
+   margin-left: -5rem;
+
+}
+.m-list{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+}
+.m-container {
+    display: flex;
+    justify-content: space-between;
+Height: 10rem;
+}
+.back, .forward {
+    color: #fff;
+    font-size: 42px;
+    color: transparent;
+    background-color: transparent;
+    height: 15rem;
+    margin-left: 1rem;
+}
+.back {
+    margin-right: 1rem;
+}
+.back:hover{
+color: white;
+}
+ .forward:hover {
+color: white;
+}
