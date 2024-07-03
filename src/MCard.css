@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     margin: 3rem;
-   
+    margin-top: 0;
+   margin-bottom: 0;
     height: 10rem;
 padding: 1rem;
 }
@@ -120,9 +121,33 @@ Height: 11rem;
 .back {
     margin-right: 1rem;
 }
+.forward {
+    margin-right: 2rem;
+}
 .back:hover{
 color: white;
 }
  .forward:hover {
 color: white;
+}
+
+.add-new {
+    background: rgb(31, 35, 46);
+    border-radius: .5rem;
+    box-shadow: 0 16px 80px #050609,
+          0 15px 20px #050609,
+          0px -75px 100px -20px #2c3352;
+    width: 13rem;
+}
+.add-new:hover {
+    border: 3px solid white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.add-new input {
+    margin-top: .5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  padding-left: .5rem;
 }

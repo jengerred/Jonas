@@ -40,15 +40,24 @@ const FavoritesProvider = ({ children }) => {
       },
     {
       id: 5,
-      name: "Series"
+      title: "",
+      backdrop_path: "",
+      image: "",
+      genre: "Favorites",
+      genreId: 4
     },
     {
-      id: 6,
-      name: "Cars"
-    },
+        id: 6,
+        title: "",
+        backdrop_path: "",
+        image: "",
+        genre: "Favorites",
+        genreId: 4
+      },
+   
    
   ]);
-
+  
   return (
     <FavoritesContext.Provider value={{ favorites, setFavorites }}>
       {children}

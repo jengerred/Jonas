@@ -1,7 +1,8 @@
 import React from 'react';
 import '../MCard.css';
-import { FavoritesContext } from './FavoritesList';
+import { FavoritesContext, FavoritesProvider } from './FavoritesList';
 import { useContext, useRef } from 'react';
+import AddFavorites from './FavoriteAdd';
 
 const IMAGE_BASE_URL = "/";
 
@@ -19,6 +20,10 @@ function FavoritesDisplay() {
     className='fav-img'/>
     </div>
   ))}
+  
+ 
+
+
     </section>
   )
 }
