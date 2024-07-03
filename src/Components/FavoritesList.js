@@ -30,10 +30,14 @@ const FavoritesProvider = ({ children }) => {
         genreId: 4
       },
  
-    {
-      id: 4,
-      name: "Movies"
-    },
+      {
+        id: 4,
+        title: "Photo's",
+        backdrop_path: "",
+        image: "Photo.png",
+        genre: "Favorites",
+        genreId: 4
+      },
     {
       id: 5,
       name: "Series"

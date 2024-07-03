@@ -38,10 +38,7 @@ function Slider() {
         {carousel.map((carousel) => (
           <div key={carousel.id} className="min-w">
             <img src={IMAGE_BASE_URL + carousel.image} className="w-full" onClick={() => window.open(carousel.backdrop_path, '_blank')} />
-            <div className="px-4 pt-2">
-              <h3 className="text-lg font-bold">{carousel.title}</h3>
-              <p className="text-gray-400">{carousel.genre}</p>
-            </div>
+         
           </div>
         ))}
       </div>
