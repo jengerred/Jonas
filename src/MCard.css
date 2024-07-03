@@ -41,7 +41,8 @@ margin: .5rem;
     flex-direction: column;
     align-items: center;
     overflow-x: auto;
-    width: 100%;
+height: 11rem;
+width: 20rem;
     margin-right: 1.5rem;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -56,8 +57,9 @@ margin: .5rem;
   
   .poster-image {
     display: flex;
-    width: 15rem;
-    height: 25rem;
+   
+    height:11rem;
+    width: 100%;
     border-radius: .3rem;
   }
   .title {
@@ -84,9 +86,7 @@ margin: .5rem;
 }
 
 .m-title {
-    width: 110px;
-    width: 260px; /* This line is not necessary, as the media query will override it on medium screens and above */
-    max-width: 260px; /* added max-width to ensure md:w-[260px] takes precedence on medium screens and above */
+
     color: #FFFFFF; /* or text-white is a valid value in TailwindCSS */
     margin-top: 0.5rem; /* mt-2 is equivalent to margin-top: 0.5rem */
 }
@@ -107,7 +107,7 @@ margin: .5rem;
 .m-container {
     display: flex;
     justify-content: space-between;
-Height: 10rem;
+Height: 11rem;
 }
 .back, .forward {
     color: #fff;
