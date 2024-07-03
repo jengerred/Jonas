@@ -4,6 +4,7 @@
     align-items: center;
     padding: 1rem;
     color: white;
+    margin-left: 2rem;
   }
   .container {
     display:flex;
@@ -20,9 +21,10 @@
   .toggle {
     cursor: pointer;
     margin-top: 1rem;
- 
   }
-  
+  .dropdown {
+z-index: 1;
+  }
   
   .user-avatar {
     width: 40px;

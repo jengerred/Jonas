@@ -104,6 +104,7 @@ transition: all 0.1s ease-in; /* convert md:transition-all duration-100 ease-in 
 }
 
 .w-full {
+  object-fit:fill;
   width: 100%;
   height: 100%;
   border-radius: 0.3rem; /* rounded-md is equivalent to 0.5rem */
@@ -118,20 +119,19 @@ padding-left: 1rem;
 padding-right: 2rem;
 margin-left: 3rem;
 }
-.g-id:hover {
-  background-color: #1a1e30;
-}
+
 
 .g-name {
   font-size: 23px;
 color:#A9A9A9;
 font-weight: 600;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: #131520;
+background-color: transparent;
 margin-left: -1.5rem;
 margin-bottom: -2rem;
-width: 110%;
+
 margin-top: 2rem;
+position: relative;
 }
 
 .dots {
@@ -150,4 +150,7 @@ margin-top: 2rem;
 
 .active {
   background-color: #666; /* darker color */
+}
+.Category {
+  margin-left: 2rem;
 }

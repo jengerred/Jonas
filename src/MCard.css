@@ -1,8 +1,37 @@
-.hr-movie-card {
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+   
+    height: 10rem;
+padding: 1rem;
+}
+
+.fav-card {
     position: relative;
-    max-width: 300px;
-  }
+   width: 13rem;
+    height: 7rem;
+    padding: 1rem;
+    background: rgb(31, 35, 46);
+    border-radius: .5rem;
+    box-shadow: 0 16px 80px #050609,
+          0 15px 20px #050609,
+          0px -75px 100px -20px #2c3352;
+margin: .5rem;
   
+  }
+  .fav-card:hover {
+    border: 3px solid white;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .fav-img {
+    object-fit: contain;
+   width: 100%;
+    height: 100%;
+  }
+
+
   .movie-title {
     font-size: 18px;
     font-weight: bold;
@@ -19,7 +48,10 @@
     gap: 1rem;
     margin-left: -1rem;
     margin-right: 3rem;
-    box-shadow: 0 60px 80px #131520, 0 45px 26px #131520, 0px -65px 80px -20px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 16px 80px #050609,
+    0 15px 20px #050609,
+    0px -75px 100px -20px #2c3352;
+
   }
   
   .poster-image {
@@ -42,7 +74,10 @@
     cursor: pointer;
     transform: scale(1.1);
     border-radius: 1rem;
-    box-shadow: 0 60px 80px #131520, 0 45px 26px #131520;
+    box-shadow: 0 16px 80px #050609,
+          0 15px 20px #050609,
+          0px -75px 100px -20px #2c3352;
+
 }
 .poster-image:hover {
    transform: scale(1.1);

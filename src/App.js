@@ -17,6 +17,9 @@ import HealthyDisplay from './Components/HealthyDisplay';
 import {MoviesProvider} from './Components/MoviesList';
 import MoviesDisplay from './Components/MoviesDisplay';
 
+import {FavoritesProvider} from './Components/FavoritesList';
+import FavoritesDisplay from './Components/Favorites';
+
 
 // import ProductionHouse from './Componets/ProductionHouse';
 
@@ -35,6 +38,10 @@ function App() {
       <CarouselProvider>
             <Slider/> 
        </CarouselProvider>
+
+       <FavoritesProvider>
+              <FavoritesDisplay/>
+        </FavoritesProvider>
 
         <WorkoutProvider>
               <WorkoutDisplay/>
